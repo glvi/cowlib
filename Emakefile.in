@@ -1,0 +1,2 @@
+%% -*- mode: erlang; coding: utf-8; indent-tabs-mode: nil; -*-
+{[@cowlib_modules@],[{i,"@cowlib_include_dir@"},{outdir,"@cowlib_binary_dir@"}]}.
