@@ -41,7 +41,7 @@ add_custom_target(CowLib
   WORKING_DIRECTORY ${cowlib_source_dir}
   VERBATIM
   COMMAND_EXPAND_LISTS)
-add_dependencies(CowLib ErlangOTP)
+#add_dependencies(CowLib ErlangOTP)
 set(URBANATM_COWLIB_OBJECTS ${COWLIB_OBJECTS} CACHE INTERNAL "UrbanATM Erlang CowLib objects" FORCE)
 add_custom_target(DialyzeCowLib
   COMMAND ${DIALYZER_PROGRAM}
